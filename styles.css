@@ -1,0 +1,96 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 30px;
+    font-size: 32px;
+    color: red;
+    font-family: "Nerko One", cursive;
+}
+
+h3 {
+    border-bottom: solid 2px white;
+    padding: 30px;
+    font-size: 32px;
+    color: red;
+    font-family: "Nerko One", cursive;
+    margin-bottom: 100px;
+    margin: 0px;
+}
+.chamada {
+    background: rgb(144,238,144);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+p {
+    font-size: 45px;
+    font-family: "Fontdiner Swanky", serif;
+    color: rgb(255,0,0)
+}
+
+p1 {
+    font-size: 25px;
+    font-family: "Open Sans", system-ui;
+    color: rgb(144,238,144);
+}
+
+p2 {
+    font-size: 23px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: rgb(193, 255, 196);
+    line-height: 150%;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid red;
+}
+
+.categoria h2 {
+    color: red;
+    font-family: "Nerko One", cursive;
+    font-size: 35px;
+}
+
+.categoria h3 {
+    color: red;
+    font-family: "Nerko One", cursive;
+    font-size: 35px
+}
